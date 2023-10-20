@@ -55,7 +55,7 @@ class KategoriApp extends StatelessWidget {
                   onTap: () {
                     // Navigasi ke halaman Profile
                     Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => Bantuan()));
+                        MaterialPageRoute(builder: (context) => bantuan()));
                   }),
               NavigationIcon(
                   icon: Icons.business,
