@@ -2,9 +2,15 @@ import 'package:flutter/material.dart';
 import 'package:projek1/Tampilan2/Model/buku2.dart';
 import 'package:projek1/Tampilan3/tampilan3.dart';
 
-class Tampilan1 extends StatelessWidget {
+class Tampilan1 extends StatefulWidget {
   const Tampilan1({Key? key});
 
+  @override
+  State<Tampilan1> createState() => _Tampilan1State();
+}
+
+class _Tampilan1State extends State<Tampilan1> {
+  
   @override
   Widget build(BuildContext context) {
     final List<buku2> katalogs = [
