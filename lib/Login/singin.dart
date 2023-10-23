@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:projek1/Tampilan1/navbar.dart';
+import 'package:projek1/Tampilan1/navigasi.dart';
 
 class LoginPage extends StatefulWidget {
   @override
@@ -103,7 +103,7 @@ class _LoginPageState extends State<LoginPage> {
                           Navigator.push(
                               context,
                               MaterialPageRoute(
-                                  builder: (context) => Navbar()));
+                                  builder: (context) => Navigasi()));
                         },
                         style: ElevatedButton.styleFrom(
                           primary: const Color.fromARGB(255, 97, 130, 100),
